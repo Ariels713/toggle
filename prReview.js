@@ -2,21 +2,21 @@
 
 // Required parameters:
 // @raycast.schemaVersion 1
-// @raycast.title Google Timer
+// @raycast.title Pull Request Timer
 // @raycast.mode compact
 
 // Optional parameters:
-// @raycast.icon https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Search_GSA.max-600x600.png
+// @raycast.icon ./icons/icon.svg
 // @raycast.argument1 { "type": "text", "placeholder": "Description", "optional": true }
 
 // Documentation:
-// @raycast.description Start Google Timer
+// @raycast.description Start Pull Request Timer
 // @raycast.author Chris Pennington @cpenned on Twitter
 
 import {startTimer} from './start-timer.js'
 
-const PROJECT_NAME = 'Google'
-const PROJECT_ID = 157063009;
+const PROJECT_NAME = 'Pull Request Timer'
+const PROJECT_ID = 186055538;
 
 const description = process.argv[2];
 
